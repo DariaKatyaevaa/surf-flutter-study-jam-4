@@ -11,10 +11,10 @@ class MagicBallApiClient {
   Future<MagicBallResponse?> askQuestion() async {
     try {
       final response = await http.get(_baseURL);
-      // if (response.statusCode == 200) {
-      //   var jsonResponse = convert.jsonDecode(response.body) as Map<String, dynamic>;
-      //   return MagicBallResponse.fromJson(jsonResponse);
-      // }
+      if (response.statusCode == 200) {
+        var jsonResponse = convert.jsonDecode(response.body) as Map<String, dynamic>;
+        return MagicBallResponse.fromJson(jsonResponse);
+      }
       return null;
     } on Error catch (error) {
       if (kDebugMode) {

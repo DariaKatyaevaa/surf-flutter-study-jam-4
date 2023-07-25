@@ -20,7 +20,7 @@ class MagicBallScreen extends StatelessWidget {
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.end,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Row(
@@ -46,7 +46,7 @@ class MagicBallScreen extends StatelessWidget {
                 ],
               ),
               MagicBall(askBallQuestionCallback: _apiClient.askQuestion),
-              const SizedBox(height: 64.0),
+              const SizedBox(height: 42.0),
               Text(
                 _platform.getExplanatoryMessage(),
                 textAlign: TextAlign.center,
