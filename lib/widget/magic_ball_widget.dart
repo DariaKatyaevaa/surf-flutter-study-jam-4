@@ -62,7 +62,8 @@ class _MagicBallState extends State<MagicBall> with TickerProviderStateMixin {
       child: Stack(
         alignment: AlignmentDirectional.center,
         children: [
-          Image.asset(settings.darkTheme ? 'assets/images/ball.png' : 'assets/images/ball_light.png', width: size.width),
+          Image.asset(settings.darkTheme ? 'assets/images/ball.png' : 'assets/images/ball_light.png',
+              width: size.width),
           if (settings.darkTheme)
             Image.asset(
               'assets/images/star.png',
@@ -76,11 +77,18 @@ class _MagicBallState extends State<MagicBall> with TickerProviderStateMixin {
               child: Stack(
                 alignment: Alignment.center,
                 children: [
-                  Image.asset(
-                    settings.darkTheme ? 'assets/images/dark_shadow.png' : 'assets/images/light_shadow.png',
-                    width: size.width * 0.7,
-                    height: size.width,
-                  ),
+                  if (_isRed && _ballAnswer.isEmpty)
+                    Image.asset(
+                      'assets/images/red_shadow.png',
+                      width: size.width * 0.7,
+                      height: size.width,
+                    ),
+                  if (!_isRed)
+                    Image.asset(
+                      settings.darkTheme ? 'assets/images/dark_shadow.png' : 'assets/images/light_shadow.png',
+                      width: size.width * 0.7,
+                      height: size.width,
+                    ),
                   Text(
                     _ballAnswer,
                     textAlign: TextAlign.center,
