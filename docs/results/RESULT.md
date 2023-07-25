@@ -32,3 +32,12 @@ https://github.com/DariaKatyaevaa/surf-flutter-study-jam-4/assets/49954825/db5b0
 <p align="center"><img src="../assets/5.png" width="400"></p>
 <p align="center"><img src="../assets/6.png" width="400"></p>
 
+<p align="center"><img width="800" alt="Screenshot 2023-07-26 at 02 43 45" src="https://github.com/DariaKatyaevaa/surf-flutter-study-jam-4/assets/49954825/90634730-7416-45eb-a4a4-03c8b86e67a2"></p>
+<p align="center"><img width="800" alt="Screenshot 2023-07-26 at 02 44 28" src="https://github.com/DariaKatyaevaa/surf-flutter-study-jam-4/assets/49954825/f2021cca-2efe-484f-937b-66abf077cf3d"></p>
+<p align="center"><img width="800" alt="Screenshot 2023-07-26 at 02 43 54" src="https://github.com/DariaKatyaevaa/surf-flutter-study-jam-4/assets/49954825/adfc75d8-cc4a-4b2e-9405-337f8c6d63b2"></p>
+<p align="center"><img width="800" alt="Screenshot 2023-07-26 at 02 44 06" src="https://github.com/DariaKatyaevaa/surf-flutter-study-jam-4/assets/49954825/dc0555b0-6482-49e9-87cd-c01c538cd0da"></p>
+
+
+
+
+
